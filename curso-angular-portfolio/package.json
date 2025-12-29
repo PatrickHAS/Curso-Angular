@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration production",
-    "deploy": "ng build --configuration production --base-href /curso-angular-portfolio/ && gh-pages -d dist/curso-angular-portfolio",
+    "deploy": "ng deploy --configuration production --base-href /curso-angular-portfolio/ && gh-pages -d dist/curso-angular-portfolio",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
