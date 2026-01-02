@@ -44,6 +44,21 @@ export class Projects {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/clarifon-logo.jpeg',
+      alt: 'Projeto Clarifion',
+      title: 'Clarifion',
+      with: '100px',
+      height: '51px',
+      description:
+        '<p>Projeto de front-end desenvolvido como parte de um teste técnico para vaga de Desenvolvedor Front-end, com foco em UI/UX, conversão e fidelidade a layouts comerciais reais.</p> <p> A aplicação simula uma etapa de checkout com oferta especial (upsell), muito comum em plataformas de e-commerce e funis de vendas, destacando informações estratégicas como benefícios do produto, prova social, garantia, escassez e chamadas claras para ação.</p>',
+      links: [
+        {
+          name: 'Conheça a Clarifion',
+          href: 'https://ejam-clarifion-qslkqkdf2-patrickhas.vercel.app/',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects) {
